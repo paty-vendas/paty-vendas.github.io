@@ -459,6 +459,11 @@ function isAppleMobile()
 	return isIPhone() || isIPad()
 }
 
+function isTabletBrowser()
+{
+	return isIPad()
+}
+
 function isIPad()
 {
 	if ( navigator.userAgent.match(/iPad/i))

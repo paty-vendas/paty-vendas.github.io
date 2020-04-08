@@ -1215,7 +1215,7 @@ function _waIncreaseZindex(_o)
 		
 		
 
-		if (waJSQuery.fn.mousewheel) {
+/*		if (waJSQuery.fn.mousewheel) {
 			wrap.bind('mousewheel.fb', function(e, delta) {
 				if (busy) {
 					e.preventDefault();
@@ -1227,7 +1227,7 @@ function _waIncreaseZindex(_o)
 					waJSQuery.fancybox[ delta > 0 ? 'prev' : 'next']();
 				}
 			});
-		}
+		}*/
 
 		if (!waJSQuery.support.opacity) {
 			wrap.addClass('fancybox-ie');
